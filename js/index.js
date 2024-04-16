@@ -5,7 +5,7 @@
 // 23
 // "per knut"
 // "skog", "vann", "mark"
-// navn: Nina, alder: 42, 
+// navn: "Nina", alder: 42, 
 // true
 // `kaldt inne i ${array[1]}en`
 export const string = NaN 
@@ -19,7 +19,7 @@ export const litteralString = NaN
 // OPPGAVE TO
 //DENNE FUNKSJONEN STÅR FEIL Ta OG RETT DEN
 export function myFunc(plussAbleNumber) {
-    for ( i = 0; i < number; i++) {
+    for (let i = 0; i < number; i++) {
         plussAbleNumber++
     };
     return plussAbleNumber
@@ -30,5 +30,15 @@ export function myFunc(plussAbleNumber) {
 // putt inn riktig info med bruk av nina objectet. og send ut infoen (se oppgave 2)
 export function oppgave3() {
     let val = `${NaN} kan kode, og er ${NaN} år.`
-    
+   
+}
+
+//OPPGAVE FIRE 
+// ta og fjern den som ikke matcher med arrayet og reassign fulført array så den har riktig ting i seg
+export function oppgave4() {
+    const fullførtArray = []
+    let arr1 = ["suppe", "tomat", "stål", "leverpostei"]
+
+
+    return fullførtArray
 }

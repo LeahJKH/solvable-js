@@ -20,8 +20,9 @@
 const oppg1 = false
 const oppg2 = false
 const oppg3 = false
+const oppg4 = false
 
-import { string, number, object, boolean, array  } from "./index.js"
+import { string, number, object, boolean, array, oppgave4, oppgave3, myFunc  } from "./index.js"
 if(string === "per knut" && number === 23 && object.navn === "Nina" && object.alder === 42
 && array[0] === "skog" && array[1] === "vann" && array[2] === "mark" && boolean === true) {
     const div = document.createElement("div")
@@ -34,30 +35,26 @@ if(string === "per knut" && number === 23 && object.navn === "Nina" && object.al
 } else {
     console.log("prøv noe nytt på oppgave 1")
 }
-
-import { myFunc } from "./index.js"
-    if (oppg1) {
-    const sNFT = 0
-    const fNFT = myFunc(sNFT)
-        if (fNFT === 23) {
-            console.log("true")
-            const div = document.createElement("div")
-            const txt = document.createTextNode("godt jobbet :3 oppgave 2 løst")
-            const p = document.createElement("p")
-            p.append(txt)
-            div.appendChild(p)
-            document.body.appendChild(div) 
-            oppg2 = !oppg2
-        } else {
-            console.log("prøv noe nytt på oppgave 2")
-        }
+if (oppg1) {
+const sNFT = 0
+const fNFT = myFunc(sNFT)
+    if (fNFT === 23) {
+        console.log("true")
+        const div = document.createElement("div")
+        const txt = document.createTextNode("godt jobbet :3 oppgave 2 løst")
+        const p = document.createElement("p")
+        p.append(txt)
+        div.appendChild(p)
+        document.body.appendChild(div) 
+        oppg2 = !oppg2
     } else {
-        console.log("fullfør oppgave 1 først")
+        console.log("prøv noe nytt på oppgave 2")
     }
-
+}
 if (oppg1 && oppg2) {
    let oppg3answ = oppgave3()
-   if(oppg3answ === "Nina kan kode, og er 42 år") {
+   console.log(oppg3answ)
+   if(oppg3answ === "Nina kan kode, og er 42 år.") {
         const div = document.createElement("div")
         const txt = document.createTextNode("godt jobbet :3 oppgave 3 løst")
         const p = document.createElement("p")
@@ -68,4 +65,18 @@ if (oppg1 && oppg2) {
    } else {
     console.log("prøv noe nytt på oppgave 3")
    }
+}
+if (oppg1 && oppg2 && oppg3) {
+    let finishedarr = oppgave4()
+    if (finishedarr.includes("suppe") && finishedarr.includes("tomat") && finishedarr.includes("leverpostei")  && !finishedarr.includes("stål")) {
+        const div = document.createElement("div")
+        const txt = document.createTextNode("godt jobbet :3 oppgave 4 løst")
+        const p = document.createElement("p")
+        p.append(txt)
+        div.appendChild(p)
+        document.body.appendChild(div)
+        oppg4 = !oppg4 
+    } else {
+        console.log("prøv noe nytt på oppgave 4")
+    }
 }
