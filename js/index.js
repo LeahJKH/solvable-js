@@ -4,25 +4,31 @@
 // variabler: 
 // 23
 // "per knut"
-// "skog", "vann", "Mark"
+// "skog", "vann", "mark"
 // navn: Nina, alder: 42, 
-//true
-export const string = NaN
+// true
+// `kaldt inne i ${array[1]}en`
+export const string = NaN 
 export const number = NaN
 export const array = NaN
 export const object = NaN
-export const boolean = NaN 
+export const boolean = NaN
+export const litteralString = NaN 
 
 
 // OPPGAVE TO
 //DENNE FUNKSJONEN STÅR FEIL Ta OG RETT DEN
 export function myFunc(plussAbleNumber) {
-    for ( i = 0; i < number; i+) {
-        plussAbleNumber +
-    }
+    for ( i = 0; i < number; i++) {
+        plussAbleNumber++
+    };
     return plussAbleNumber
 }
 
 
 // OPPGAVE TRE
-export
+// putt inn riktig info med bruk av nina objectet. og send ut infoen (se oppgave 2)
+export function oppgave3() {
+    let val = `${NaN} kan kode, og er ${NaN} år.`
+    
+}
