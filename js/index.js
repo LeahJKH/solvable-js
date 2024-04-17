@@ -17,11 +17,12 @@ export const litteralString = NaN
 
 
 // OPPGAVE TO
-//DENNE FUNKSJONEN STÅR FEIL Ta OG RETT DEN
+// denne for loopen står feil endre den så han funker
+//NB HUSK OG UNCOMMENT
 export function myFunc(plussAbleNumber) {
-    for (let i = 0; i < number; i++) {
-        plussAbleNumber++
-    };
+    // for ( i = 0; i < ; i {
+    //    plussAbleNumber++
+    //};
     return plussAbleNumber
 }
 
@@ -41,4 +42,16 @@ export function oppgave4() {
 
 
     return fullførtArray
+}
+
+//OPPGAVE FEM
+// endre floating til 640 med matte (*, /, +, -). prøv og gjøre den så intrisang som mulig
+export function oppgave5() {
+    const static1 = 4 
+    const static2 = 20 
+    const static3 = 10
+    let floating = NaN
+    console.log(static1,static2,static3) // fjern denne når dere kommer så langt
+
+    return floating
 }
