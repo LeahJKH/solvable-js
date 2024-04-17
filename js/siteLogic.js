@@ -26,8 +26,9 @@ const oppg2 = true
 const oppg3 = true
 const oppg4 = false
 const oppg5 = false
+const oppg6 =false
 
-import { string, number, object, boolean, array, oppgave4, oppgave3, myFunc, oppgave5  } from "./index.js"
+import { string, number, object, boolean, array, oppgave4, oppgave3, myFunc, oppgave5, oppgave6  } from "./index.js"
 if(string === "per knut" && number === 23 && object.navn === "Nina" && object.alder === 42
 && array[0] === "skog" && array[1] === "vann" && array[2] === "mark" && boolean === true) {
     const div = document.createElement("div")
@@ -102,5 +103,20 @@ if (oppg1 && oppg2 && oppg3 && oppg4) {
         oppg5 = !oppg5 
     } else {
         console.log("prøv noe nytt på oppgave 5")
+    }
+}
+if (oppg1 && oppg2 && oppg3 && oppg4 && oppg5) {
+    oppgave6()
+    let svarbool = oppgave6() 
+        
+    if (svarbool === true) {
+        const div = document.createElement("div")
+        const txt = document.createTextNode("godt jobbet :3 oppgave 6 løst")
+        const p = document.createElement("p")
+        div.classList.add("box-style")
+        p.append(txt)
+        div.appendChild(p)
+        pageEl.maincont.appendChild(div) 
+        oppg6 = !oppg6 
     }
 }
