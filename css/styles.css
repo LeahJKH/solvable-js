@@ -1,0 +1,27 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 210, 210);
+}
+header {
+    background-color: rgb(224, 224, 92);
+    color: rgb(19, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+header > h1 {
+    margin:  0;
+    font-size: 62px;
+}
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
