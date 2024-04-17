@@ -21,9 +21,9 @@ const pageEl = {
 
 
 
-const oppg1 = false
-const oppg2 = false
-const oppg3 = false
+const oppg1 = true
+const oppg2 = true
+const oppg3 = true
 const oppg4 = false
 const oppg5 = false
 
@@ -33,7 +33,7 @@ if(string === "per knut" && number === 23 && object.navn === "Nina" && object.al
     const div = document.createElement("div")
     const txt = document.createTextNode("godt jobbet :3 oppgave 1 løst")
     const p = document.createElement("p")
-    
+    div.classList.add("box-style")
     p.append(txt)
     div.appendChild(p)                                                                                                             
     pageEl.maincont.appendChild(div) 
@@ -49,6 +49,7 @@ const fNFT = myFunc(sNFT)
         const div = document.createElement("div")
         const txt = document.createTextNode("godt jobbet :3 oppgave 2 løst")
         const p = document.createElement("p")
+        div.classList.add("box-style")
         p.append(txt)
         div.appendChild(p)
         pageEl.maincont.appendChild(div) 
@@ -64,6 +65,7 @@ if (oppg1 && oppg2) {
         const div = document.createElement("div")
         const txt = document.createTextNode("godt jobbet :3 oppgave 3 løst")
         const p = document.createElement("p")
+        div.classList.add("box-style")
         p.append(txt)
         div.appendChild(p)
         pageEl.maincont.appendChild(div) 
@@ -78,6 +80,7 @@ if (oppg1 && oppg2 && oppg3) {
         const div = document.createElement("div")
         const txt = document.createTextNode("godt jobbet :3 oppgave 4 løst")
         const p = document.createElement("p")
+        div.classList.add("box-style")
         p.append(txt)
         div.appendChild(p)
         pageEl.maincont.appendChild(div) 
@@ -92,6 +95,7 @@ if (oppg1 && oppg2 && oppg3 && oppg4) {
         const div = document.createElement("div")
         const txt = document.createTextNode("godt jobbet :3 oppgave 5 løst")
         const p = document.createElement("p")
+        div.classList.add("box-style")
         p.append(txt)
         div.appendChild(p)
         pageEl.maincont.appendChild(div) 

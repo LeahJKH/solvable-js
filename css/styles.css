@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(210, 210, 210);
+    text-align: center;
 }
 header {
     background-color: rgb(224, 224, 92);
@@ -19,9 +20,18 @@ header > h1 {
     margin:  0;
     font-size: 62px;
 }
-main {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
+#main-cont {
+    width: 100%;
+    padding: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.box-style {
+    width: 240px;
+    height: 200px;
+    background-color: rgb(40, 40, 39);
+    color: rgb(204, 201, 201);
+
 }

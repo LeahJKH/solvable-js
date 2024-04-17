@@ -37,7 +37,7 @@ export function oppgave3() {
 //OPPGAVE FIRE 
 // ta og fjern den som ikke matcher med arrayet og reassign fulført array så den har riktig ting i seg
 export function oppgave4() {
-    const fullførtArray = []
+    let fullførtArray = []
     let arr1 = ["suppe", "tomat", "stål", "leverpostei"]
 
 
