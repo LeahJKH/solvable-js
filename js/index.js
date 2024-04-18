@@ -71,3 +71,9 @@ export function oppgave7() {
 // text = godt jobbet :3 oppgave 1 løst
 return div
 }
+
+//oppgave 8
+//ta og vis dere fram med noe kode
+function showoff() {
+    
+}

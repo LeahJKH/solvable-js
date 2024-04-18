@@ -5,7 +5,6 @@
 const pageEl = {
     headerT: document.querySelector("#top-box"),
     maincont: document.querySelector("#main-cont"),
-    footerB: document.querySelector("#btm-box")
 }
 
 const oppg1 = false
