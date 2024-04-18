@@ -1,5 +1,4 @@
-// ikke jukse nå >:P
-
+// ikke jukse nå, bruk kun når du sitter fast >:P
 
 //dette er bare så dere får feedback på oppgaven
 
@@ -9,26 +8,15 @@ const pageEl = {
     footerB: document.querySelector("#btm-box")
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 const oppg1 = true
 const oppg2 = true
 const oppg3 = true
-const oppg4 = false
-const oppg5 = false
-const oppg6 =false
+const oppg4 = true
+const oppg5 = true
+const oppg6 = true
+const oppg7 = false
 
-import { string, number, object, boolean, array, oppgave4, oppgave3, myFunc, oppgave5, oppgave6  } from "./index.js"
+import { string, number, object, boolean, array, oppgave4, oppgave3, myFunc, oppgave5, oppgave6, oppgave7  } from "./index.js"
 if(string === "per knut" && number === 23 && object.navn === "Nina" && object.alder === 42
 && array[0] === "skog" && array[1] === "vann" && array[2] === "mark" && boolean === true) {
     const div = document.createElement("div")
@@ -36,7 +24,7 @@ if(string === "per knut" && number === 23 && object.navn === "Nina" && object.al
     const p = document.createElement("p")
     div.classList.add("box-style")
     p.append(txt)
-    div.appendChild(p)                                                                                                             
+    div.appendChild(p)                                   
     pageEl.maincont.appendChild(div) 
     oppg1 = !oppg1
 } else {
@@ -118,5 +106,12 @@ if (oppg1 && oppg2 && oppg3 && oppg4 && oppg5) {
         div.appendChild(p)
         pageEl.maincont.appendChild(div) 
         oppg6 = !oppg6 
+    }
+}
+if (oppg1 && oppg2 && oppg3 && oppg4 && oppg5 && oppg6) {
+    let div = oppgave7()
+    if (div != "") {
+        pageEl.maincont.appendChild(div)
+        oppg7 = !oppg7 
     }
 }
