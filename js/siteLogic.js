@@ -8,17 +8,17 @@ const pageEl = {
     footerB: document.querySelector("#btm-box")
 }
 
-const oppg1 = true
-const oppg2 = true
-const oppg3 = true
-const oppg4 = true
-const oppg5 = true
-const oppg6 = true
+const oppg1 = false
+const oppg2 = false
+const oppg3 = false
+const oppg4 = false
+const oppg5 = false
+const oppg6 = false
 const oppg7 = false
 
 import { string, number, object, boolean, array, oppgave4, oppgave3, myFunc, oppgave5, oppgave6, oppgave7  } from "./index.js"
-if(string === "per knut" && number === 23 && object.navn === "Nina" && object.alder === 42
-&& array[0] === "skog" && array[1] === "vann" && array[2] === "mark" && boolean === true) {
+
+if(string === "per knut" && number === 23 && object.navn === "Nina" && object.alder === 42 && array[0] === "skog" && array[1] === "vann" && array[2] === "mark" && boolean === true) {
     const div = document.createElement("div")
     const txt = document.createTextNode("godt jobbet :3 oppgave 1 løst")
     const p = document.createElement("p")
