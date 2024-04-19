@@ -58,9 +58,9 @@ export function oppgave5() {
 //OPPGAVE SEKS
 // lag en if else statment som vil sjekke om bool er true eller false. om den er true return bool. om den e false gjør bool true
 export function oppgave6() {
-    let bool = false
-    return bool
+    let bool = true
     bool = !bool
+    return bool
 }
 
 //OPPGAVE syv 
