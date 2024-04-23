@@ -7,13 +7,13 @@ const pageEl = {
     maincont: document.querySelector("#main-cont"),
 }
 
-const oppg1 = false
-const oppg2 = false
-const oppg3 = false
-const oppg4 = false
-const oppg5 = false
-const oppg6 = false
-const oppg7 = false
+let oppg1 = false
+let oppg2 = false
+let oppg3 = false
+let oppg4 = false
+let oppg5 = false
+let oppg6 = false
+let oppg7 = false
 
 import { string, number, object, boolean, array, oppgave4, oppgave3, myFunc, oppgave5, oppgave6, oppgave7  } from "./index.js"
 
